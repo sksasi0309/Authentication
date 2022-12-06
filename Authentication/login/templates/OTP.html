@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <link rel="stylesheet" href="../static/css/otp.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="../static/otp.js"></script>
+</head>
+<body>
+    <div class="logform">
+        <form action="" onsubmit="return check()" autocomplete="off" method="POST">
+            {%csrf_token%}
+            <h2>OTP VERIVICATION</h2>
+            <div>
+                <P>Thank you for registering with you.Please type the OTP as shared on your EMAIL</P>
+            </div>
+            
+            <div class="mydiv">
+/                <input onmouseover="onMouseover(0)" onmouseout="onMouseout(0)" type="text" id="otp" name="otp" placeholder="ENTER OTP"> 
+                <p id="para"></p>       
+            </div>
+            <button onclick="check()">SUBMIT</button>
+            
+
+        </form>
+
+    </div>
+    
+    
+    
+    
+</body>
+</html>

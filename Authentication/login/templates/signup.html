@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <link rel="stylesheet" href="../static/css/signup.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP</title>
+    <script src="../static/signup.js"></script>
+</head>
+<body>
+    <div class="signform">
+        <form action="" onsubmit="return check()" autocomplete="off" method="POST">
+            {%csrf_token%}
+            <h2>SIGNUP</h2>
+            <div class="mydiv">
+                <!-- <label for="fname">FIRST NAME</label><br> -->
+                <input onmouseover="onMouseover(0)" onmouseout="onMouseout(0)" type="text" id="fname" name="fname" placeholder="FIRST NAME"> 
+                <p></p>       
+            </div>
+            <div class="mydiv">
+                <!-- <label for="lname">LAST NAME</label><br> -->
+                <input onmouseover="onMouseover(1)" onmouseout="onMouseout(1)" type="text" id="lname" name="lname" placeholder="LAST NAME">
+                <p></p>        
+            </div>
+            <div class="mydiv">
+                <!-- <label for="mobile">MOBILE</label><br> -->
+                <input onmouseover="onMouseover(2)" onmouseout="onMouseout(2)" type="text" id="mobile" name="mobile" placeholder="MOBILE">
+                <p></p>        
+            </div>
+            <div class="mydiv">
+                <!-- <label for="email">EMAIL ID</label><br> -->
+                <input onmouseover="onMouseover(3)" onmouseout="onMouseout(3)" type="email" id="email" name="email" placeholder="EMAIL ID">
+                <p></p>        
+            </div>
+            <div class="mydiv">
+                <!-- <label for="password">PASSWORD</label><br> -->
+                <input onmouseover="onMouseover(4)" onmouseout="onMouseout(4)" type="password" id="password" name="password" placeholder="PASSWORD">
+                <p></p>        
+            </div>
+            <div class="mydiv">
+                <!-- <label for="cpassword">CONFIRM PASSWORD</label><br> -->
+                <input onmouseover="onMouseover(5)" onmouseout="onMouseout(5)" type="password" id="cpassword" name="cpassword" placeholder="CONFIRM PASSWORD">
+                <p></p>        
+            </div>
+            <div class="act">
+                <LAbel>Already a member?</LAbel>
+                <a href="/login">login</a>
+            </div>
+            <button onclick="check()">SUBMIT</button>
+            
+
+        </form>
+
+    </div>
+    
+    
+    
+    
+</body>
+</html>

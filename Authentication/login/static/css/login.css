@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(243, 239, 187);
+    padding-left: 350px;
+    padding-top: 140px;
+    
+    
+}
+
+.logform{
+    background-color: rgba(113, 151, 137, 0.486);
+    width: 500px;
+    margin: 150 px auto;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right:20px ;
+    padding-bottom: 30px;
+}
+.logform h2{
+    padding-left: 180px;
+    color: midnightblue;
+}
+.mydiv input{
+    width: 90%;
+    font-size: 1.2em;
+    border: 1px solid rgb(10, 18, 87);
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin:5px 0px 15px ;
+    border-radius: 10px;
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color:  #6afa89;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.act{
+    font-size:17px;
+}
+   
+.act1{
+   margin-top: -16px; 
+   margin-left: 300px;
+   font-size:17px;
+}

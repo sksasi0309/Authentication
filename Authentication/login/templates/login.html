@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <link rel="stylesheet" href="../static/css/login.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="../static/login.JS"></script>
+</head>
+<body>
+    <div class="logform">
+        <form action="" onsubmit="return check()" autocomplete="off" method="POST">
+            {%csrf_token%}
+            <h2>LOGIN</h2>
+            <div class="mydiv">
+                <label for="email">EMAIL ID</label><br>
+                <input onmouseover="onMouseover(0)" onmouseout="onMouseout(0)" type="text" id="email" name="email"> 
+                <p></p>       
+            </div>
+            <div class="mydiv">
+                <label for="password">PASSWORD</label><br>
+                <input onmouseover="onMouseover(1)" onmouseout="onMouseout(1)" type="password" id="password" name="password">
+                <p></p>        
+            </div>
+            <button onclick="check()">LOGIN</button>
+            <div class="act">
+                <a href="/signup" >Don't have an account?</a><br>
+                
+            </div>
+            <div class="act1">
+                <a href="/reset">Forgot password?</a>
+            </div>
+
+        </form>
+
+    </div>
+    
+    
+    
+    
+</body>
+</html>

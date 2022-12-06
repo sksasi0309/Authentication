@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <link rel="stylesheet" href="../static/css/forget_password.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESET</title>
+    <script src="../static/forget_password.js"></script>
+</head>
+<body>
+    <div class="forgotform">
+        <form action="" onsubmit="return check()" autocomplete="off" method="POST">
+            {%csrf_token%}
+            <h2>FORGOT PASSWORD</h2>
+            <div class="mydiv">
+                <label for="email">EMAIL ID</label><br>
+                <input onmouseover="onMouseover(0)" onmouseout="onMouseout(0)" type="text" id="email" name="email" placeholder="EMAIL ID"> 
+                <p></p>       
+            </div>
+           
+            <button onclick="check()">SEND OTP</button>
+            <div class="act">
+                <a href="/signup" >Create account?</a><br>
+                
+            </div>
+            <div class="act1">
+                <a href="/login">login</a>
+            </div>
+
+        </form>
+
+    </div>
+    
+    
+    
+    
+</body>
+</html>

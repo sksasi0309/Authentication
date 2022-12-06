@@ -1,0 +1,79 @@
+body{
+    background-color:rgb(231, 227, 180);
+    padding-left: 350px;
+    padding-top: 0px;
+    
+    
+}
+
+.signform{
+    background-color: rgba(113, 151, 137, 0.486);
+    width: 500px;
+    margin: 150 px auto;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right:20px ;
+    padding-bottom: 30px;
+}
+.signform h2{
+    padding-left: 180px;
+    color: midnightblue;
+}
+.mydiv input{
+    width: 90%;
+    font-size: 1.2em;
+    border: 1px solid rgb(10, 18, 87);
+    padding: 8px 8px;
+    box-sizing: border-box;
+    margin:5px 0px 15px ;
+    border-radius: 10px;
+}
+/* .mydiv1 input{
+    width: 40%;
+    font-size: 1.2em;
+    border: 1px solid rgb(10, 18, 87);
+    padding: 5px 5px;
+    box-sizing: border-box;
+    margin:5px 0px 15px ;
+    border-radius: 10px;
+    margin-bottom: -10px;
+    
+
+}
+.mydiv2  
+{
+  
+    margin-left: 250px;
+    margin-top: -75px;
+    border-radius: 10px;
+
+}
+.mydiv2 input{
+    width: 80%;
+    font-size: 1.2em;
+    border: 1px solid rgb(10, 18, 87);
+    padding: 5px 5px;
+    box-sizing: border-box;
+    margin:5px 0px 15px ;
+    border-radius: 10px;
+    margin-bottom: 50px;
+} */
+.btn{
+    text-align: center;
+}
+button{
+    background-color:  #6afa89;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+   
+.act{
+   margin-top: -16px; 
+   margin-left: 150px;
+   font-size:17px;
+}
