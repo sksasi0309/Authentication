@@ -1,1 +1,1 @@
-Authentication using Django,HTML,CSS,Java Script,MYSQL Database.
+Authentication using Django,HTML,CSS,Java Script,MYSQL .
